@@ -1,0 +1,26 @@
+Algorithm,Key features,# of features,Val RMSE,Test RMSE
+c_LASSO_10,,11,3.696212,4.44368
+ c_LASSO_3,,35,3.888039,4.49837
+c_LASSO_7,,22,3.846461,4.48347
+c_LASSO_9,,13,3.732963,4.47536
+c_LM_3,,33,4.136431694,4.64229
+c_LM_7,,14,4.128491689,4.55116
+c_LM_8,,8,4.154764593,4.44156
+c_LM_9,,12,4.066897285,4.43872
+c_ridge_10,,11,4.028491689,4.4656
+c_ridge_1,,38,,4.4385
+c_ridge_2,,35,,4.45102
+c_ridge_3,,33,,4.48602
+c_ridge_4,,32,,4.48607
+c_ridge_5,,24,,4.49794
+c_ridge_6,,22,,4.45677
+c_ridge_7,,14,,4.47417
+c_ridge_8,,8,,4.41282
+c_ridge_9,,12,,4.41046
+ j_BayesianRidge_1,"BayesianRidge(n_iter =300, alpha_1=1e-10, alpha_2 = 400, lambda_1= 1e-10, lambda_2=2 )",19,4.0466,4.6022
+j_BayesianRidge_2,"BayesianRidge(n_iter =300, alpha_1=1e-10, alpha_2 = 400, lambda_1= 1e-10, lambda_2=4 )",19,3.922986,4.62577
+j_ElasticNet_1,,19,3.9242,4.61919
+j_lasso_1,,19,3.986338819,4.64
+j_lasso_2,,19,3.91,4.6
+j_ridge_1,,19,3.94,4.55
+j_xgboost_1,,19,4.0501,4.61223
